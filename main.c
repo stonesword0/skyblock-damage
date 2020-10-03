@@ -11,10 +11,25 @@ int main() {
         return 0;
     }
     int smiteLevel;
+    if(smiteLevel > 7) {
+        printf("\nInvalid Smite Level. Maximum is 7. Please try again.\n");
+        return 0;
+    }
     int baneOfArthropodsLevel;
+    if(baneOfArthropodsLevel > 6) {
+        printf("\nInvalid Bane of Arthropods Level. Maximum is 6. Please try again.\n");
+        return 0;
+    }
     int giantKillerLevel;
+    if(giantKillerLevel > 6) {
+        printf("\nInvalid Giant Killer Level. Maximum is 6. Please try again.\n");
+        return 0;
+    }
     int enderSlayerLevel;
-    int dragonHunterLevel;
+    if(enderSlayerLevel > 5) {
+        printf("\nInvalid Ender Slayer Level. Maximum is 5. Please try again.\n");
+        return 0;
+    }
     int executeLevel;
     int cubismLevel;
     int firstStrikeLevel;
